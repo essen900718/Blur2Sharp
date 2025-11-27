@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="./static/images/icon.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -87,7 +87,8 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Blur2Sharp: Human Novel Pose and View Synthesis with Generative Prior Refinement</h1>
+          <h1 class="title is-1 publication-title"><img src="/static/images/icon_2.png" alt="logo" style="height: 60px;"> Blur2Sharp</h1>
+          <h3 class="subtitle is-4 publication-subtitle"><b>Human Novel Pose and View Synthesis with Generative Prior Refinement</b></h3>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://essen900718.github.io/Blur2Sharp">Chia-Hern Lai</a>,
@@ -102,12 +103,12 @@
               <a href="https://essen900718.github.io/Blur2Sharp">Thanh-Nguyen Truong</a>,
             </span>
             <span class="author-block">
-              <a href="https://essen900718.github.io/Blur2Sharp">Ching-Chun Huang</a>,
+              <a href="https://essen900718.github.io/Blur2Sharp">Ching-Chun Huang</a>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block">National Yang Ming Chiao Tung University,</span>
+            <span class="author-block">National Yang Ming Chiao Tung University</span>
           </div>
 
           <div class="is-size-5 publication-conference">
@@ -293,6 +294,114 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <h2 class="title is-3 has-text-centered">Comparison Results</h2>
+
+    <h3 class="title is-4">Novel-View Synthesis</h3>
+    
+    <div class="columns is-vcentered is-centered is-mobile is-gapless">
+      
+      <div class="column">
+
+        <!-- Case 1 -->
+        <img src="demo/novel_view/200027_0004/0000.png" width="100%" alt="200027_0004 0000 view">
+        <div class="columns is-mobile is-gapless" style="margin-top: 4px; width: 100%;">
+          <div class="column has-text-centered"><p class="is-size-7">Groundtruth</p></div>
+          <div class="column has-text-centered"><p class="is-size-7"><b>Ours</b></p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Champ</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Animate Anyone</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">IDOL</p></div>
+        </div>
+
+        <img src="demo/novel_view/200027_0004/0180.png" width="100%" alt="200027_0004 0180 view">
+        <div class="columns is-mobile is-gapless" style="margin-top: 4px; width: 100%;">
+          <div class="column has-text-centered"><p class="is-size-7">Groundtruth</p></div>
+          <div class="column has-text-centered"><p class="is-size-7"><b>Ours</b></p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Champ</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Animate Anyone</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">IDOL</p></div>
+        </div>
+
+
+        <!-- Case 2 -->
+        <img src="demo/novel_view/200145_0002/0000.png" width="100%" alt="200145_0002 0000 view">
+        <div class="columns is-mobile is-gapless" style="margin-top: 4px; width: 100%;">
+          <div class="column has-text-centered"><p class="is-size-7">Groundtruth</p></div>
+          <div class="column has-text-centered"><p class="is-size-7"><b>Ours</b></p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Champ</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Animate Anyone</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">IDOL</p></div>
+        </div>
+
+        <img src="demo/novel_view/200145_0002/0090.png" width="100%" alt="200145_0002 0090 view">
+        <div class="columns is-mobile is-gapless" style="margin-top: 4px; width: 100%;">
+          <div class="column has-text-centered"><p class="is-size-7">Groundtruth</p></div>
+          <div class="column has-text-centered"><p class="is-size-7"><b>Ours</b></p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Champ</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Animate Anyone</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">IDOL</p></div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <br><br>
+
+    <h3 class="title is-4">Novel-Pose Synthesis</h3>
+  
+    <div class="column">
+      <div class="content has-text-centered">
+
+        <!-- Case 1 -->
+        <img src="demo/novel_pose/200597_0000/0090.png" width="100%" alt="200597_0000 0090 pose">
+        <div class="columns is-mobile is-gapless" style="margin-top: 4px; width: 100%;">
+          <div class="column has-text-centered"><p class="is-size-7">Groundtruth</p></div>
+          <div class="column has-text-centered"><p class="is-size-7"><b>Ours</b></p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Champ</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Animate Anyone</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">IDOL</p></div>
+        </div>
+
+        <img src="demo/novel_pose/200597_0000/0180.png" width="100%" alt="200597_0000 0180 pose">
+        <div class="columns is-mobile is-gapless" style="margin-top: 4px; width: 100%;">
+          <div class="column has-text-centered"><p class="is-size-7">Groundtruth</p></div>
+          <div class="column has-text-centered"><p class="is-size-7"><b>Ours</b></p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Champ</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Animate Anyone</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">IDOL</p></div>
+        </div>
+
+        <!-- Case 2 -->
+        <img src="demo/novel_pose/200478_0002/0000.png" width="100%" alt="200597_0000 0000 pose">
+        <div class="columns is-mobile is-gapless" style="margin-top: 4px; width: 100%;">
+          <div class="column has-text-centered"><p class="is-size-7">Groundtruth</p></div>
+          <div class="column has-text-centered"><p class="is-size-7"><b>Ours</b></p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Champ</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Animate Anyone</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">IDOL</p></div>
+        </div>
+
+        <img src="demo/novel_pose/200478_0002/0270.png" width="100%" alt="200597_0000 0270 pose">
+        <div class="columns is-mobile is-gapless" style="margin-top: 4px; width: 100%;">
+          <div class="column has-text-centered"><p class="is-size-7">Groundtruth</p></div>
+          <div class="column has-text-centered"><p class="is-size-7"><b>Ours</b></p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Champ</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">Animate Anyone</p></div>
+          <div class="column has-text-centered"><p class="is-size-7">IDOL</p></div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    </div>
+</section>
 
 <!-- <section class="section">
   <div class="container is-max-desktop">
@@ -448,22 +557,14 @@
   </div>
 </section> -->
 
-<!-- <section class="section" id="Acknowledgements">
+<section class="section" id="Acknowledgements">
   <div class="container is-max-desktop content">
     <h2 class="title">Acknowledgements</h2>
     <p>
-      This work was financially supported in part (project number: 112UA10019) 
-      by the Co-creation Platform of the Industry Academia Innovation School, NYCU, 
-      under the framework of the National Key Fields Industry-University Cooperation 
-      and Skilled Personnel Training Act, from the Ministry of Education (MOE) and 
-      industry partners in Taiwan, and in part by MediaTek Inc. It also supported in 
-      part by the National Science and Technology Council, Taiwan, under Grant NSTC-112-2221-E-A49-089-MY3, 
-      Grant NSTC-110-2221-E-A49-066-MY3, Grant NSTC-111- 2634-F-A49-010, Grant NSTC-112-2425-H-A49-001-, 
-      and in part by the Higher Education Sprout Project of the National Yang Ming Chiao Tung University 
-      and the Ministry of Education (MOE), Taiwan.
+      This work was financially supported in part (project number: 112UA10019) by the Co-creation Platform of the Industry Academia Innovation School, NYCU, under the framework of the National Key Fields Industry-University Cooperation and Skilled Personnel Training Act, from the Ministry of Education (MOE) and industry partners in Taiwan. It also supported in part by the National Science and Technology Council, Taiwan, under Grant NSTC-114-2218-E-A49 -024, - Grant NSTC-112-2221-E-A49-089-MY3, Grant NSTC-114-2425-H-A49-001, Grant NSTC-113-2634-F-A49-007, Grant NSTC-112-2221-E-A49-092-MY3, and in part by the Higher Education Sprout Project of the National Yang Ming Chiao Tung University and the Ministry of Education (MOE), Taiwan. It was also partly supported by MediaTek Inc.; Hon Hai Research Institute; Gear Radio Electronics Corp.; E.SUN Commercial Bank, Ltd.; Penpower Technology Ltd.; and the Industrial Technology Research Institute.
     </p>
   </div>
-</section> -->
+</section>
 
 <footer class="footer">
   <div class="container">

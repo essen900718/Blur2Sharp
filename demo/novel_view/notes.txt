@@ -1,0 +1,5 @@
+The downloaded results from server147:/mnt/HDD1/lch/img_combine_Mvhumannet_ido/ is just not correct in terms of gt images.
+Needed to run the process.py script.
+Final results are in 'process' folder.
+
+the combine order is as follow [ gt, ours, champ, animate anyone, idol ]
