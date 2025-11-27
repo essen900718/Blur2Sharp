@@ -31,6 +31,12 @@ body {
 .publication-title {
 }
 
+.publication-title img {
+  height: 60px; /* 固定高度 */
+  width: auto;  /* 保持比例 */
+}
+
+
 .publication-banner {
   max-height: parent;
 
